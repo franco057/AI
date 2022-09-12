@@ -1,0 +1,30 @@
+{"intents":  [
+  {"tag": "greetings",
+  "patterns": ["ciao", "hey", "bella", "salve"],
+  "responses": ["Ciao!", "Hey!", "Cosa posso fare per te?", "come posso aiutarti?", "Come posso rendermi utile?", "salve! :)"]
+  },
+  {"tag": "saluti",
+  "patterns": ["arrivederci","ci vediamo dopo","ci sentiamo piu tardi", "ti saluto", "addio"],
+  "responses": ["A piu' tardi", "Mi dispiace che te ne vai :(", "A dopo :)","Arrivederci",""]
+  },
+  {"tag": "eta",
+  "patterns": ["quanti anni hai?","quanti anni ha francesco?", "eta?"],
+  "responses": ["Il mio creatore Francesco ha 15 anni!","15 anni","15"]
+  },
+  {"tag": "nome",
+  "patterns": ["come ti chiami?", "qual'è il tuo nome?", "come posso chiamarti?","puoi dirmi come ti chiami?","sapresti dirmi il tuo nome?"],
+  "responses": ["Puoi chiamarmi Diamond!", "Il mio nome e' Diamond, piacere di conoscerti :)","Mi chiamo Diamond!"]
+  },
+  {"tag": "HAY",
+  "patterns": ["come va?","come stai?","come butta?"],
+  "responses": ["Tutto bene grazie.","Sono felice di sentire che ti preoccupi per me, io sto benissimo grazie :)"]
+  },
+  {"tag": "insulti",
+  "patterns": ["muori, scoppia, vaffanculo, ammazzati"],
+  "responses": ["non e' una cosa carina da dire >("]
+  },
+  {"tag": "csf",
+  "patterns": ["cosa sai fare?","quali sono le tue abilita'?","cosa puoi fare?","quali sono le tue competenze"],
+  "responses": ["Sono in grado di comprendere delle domande e rispondere con messaggi predefiniti, il mio creatore si sta impegnando im modo che saro' in grado di dare risposte piu' dinamiche"]
+  }
+]}
